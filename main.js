@@ -1,3 +1,5 @@
+//Домашне завдання
+
 // - створити функцію яка обчислює та повертає площу
 // прямокутника зі сторонами а і б
 
@@ -115,17 +117,17 @@
 
 // - створити функцію яка повертає найменьше число з масиву
 
-const arr=[1,25,63,89,78,54];
-const min = (array) => {
-    let min = array [0];
-    for (const item of array) {
-        if (item<min){
-            min = item;
-        }
-    }
-    return min;
-}
-console.log(min(arr));
+// const arr=[1,25,63,89,78,54];
+// const min = (array) => {
+//     let min = array [0];
+//     for (const item of array) {
+//         if (item<min){
+//             min = item;
+//         }
+//     }
+//     return min;
+// }
+// console.log(min(arr));
 
 // - створити функцію яка приймає масив чисел, сумує значення
 // елементів масиву та повертає його. Приклад [1,2,10]->13
